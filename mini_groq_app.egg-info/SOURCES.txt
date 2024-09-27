@@ -1,0 +1,7 @@
+README.md
+setup.py
+mini_groq_app.egg-info/PKG-INFO
+mini_groq_app.egg-info/SOURCES.txt
+mini_groq_app.egg-info/dependency_links.txt
+mini_groq_app.egg-info/requires.txt
+mini_groq_app.egg-info/top_level.txt

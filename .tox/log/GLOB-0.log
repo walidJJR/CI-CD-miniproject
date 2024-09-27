@@ -1,0 +1,40 @@
+action: GLOB, msg: packaging
+cwd: /home/walid/Documents/CI-CD-miniproject
+cmd: /usr/bin/python3 setup.py sdist --formats=zip --dist-dir .tox/dist
+running sdist
+running egg_info
+writing mini_groq_app.egg-info/PKG-INFO
+writing dependency_links to mini_groq_app.egg-info/dependency_links.txt
+writing requirements to mini_groq_app.egg-info/requires.txt
+writing top-level names to mini_groq_app.egg-info/top_level.txt
+reading manifest file 'mini_groq_app.egg-info/SOURCES.txt'
+writing manifest file 'mini_groq_app.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: either (author and author_email) or (maintainer and maintainer_email) must be supplied
+
+creating mini-groq-app-0.1
+creating mini-groq-app-0.1/mini_groq_app.egg-info
+copying files to mini-groq-app-0.1...
+copying README.md -> mini-groq-app-0.1
+copying setup.py -> mini-groq-app-0.1
+copying mini_groq_app.egg-info/PKG-INFO -> mini-groq-app-0.1/mini_groq_app.egg-info
+copying mini_groq_app.egg-info/SOURCES.txt -> mini-groq-app-0.1/mini_groq_app.egg-info
+copying mini_groq_app.egg-info/dependency_links.txt -> mini-groq-app-0.1/mini_groq_app.egg-info
+copying mini_groq_app.egg-info/requires.txt -> mini-groq-app-0.1/mini_groq_app.egg-info
+copying mini_groq_app.egg-info/top_level.txt -> mini-groq-app-0.1/mini_groq_app.egg-info
+Writing mini-groq-app-0.1/setup.cfg
+creating '.tox/dist/mini-groq-app-0.1.zip' and adding 'mini-groq-app-0.1' to it
+adding 'mini-groq-app-0.1'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info'
+adding 'mini-groq-app-0.1/setup.cfg'
+adding 'mini-groq-app-0.1/PKG-INFO'
+adding 'mini-groq-app-0.1/setup.py'
+adding 'mini-groq-app-0.1/README.md'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info/PKG-INFO'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info/requires.txt'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info/top_level.txt'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info/SOURCES.txt'
+adding 'mini-groq-app-0.1/mini_groq_app.egg-info/dependency_links.txt'
+removing 'mini-groq-app-0.1' (and everything under it)

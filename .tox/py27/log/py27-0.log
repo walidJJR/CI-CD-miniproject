@@ -1,0 +1,4 @@
+action: py27, msg: getenv
+cwd: /home/walid/Documents/CI-CD-miniproject/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python2.7 py27
+RuntimeError: failed to query /usr/bin/python2.7 with code 1 err: '  File "/home/walid/.local/lib/python3.8/site-packages/virtualenv/discovery/py_info.py", line 24\n    return list(OrderedDict.fromkeys(["", *os.environ.get("PATHEXT", "").lower().split(os.pathsep)]))\n                                          ^\nSyntaxError: invalid syntax\n'

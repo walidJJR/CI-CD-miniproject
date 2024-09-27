@@ -1,0 +1,4 @@
+action: py38, msg: getenv
+cwd: /home/walid/Documents/CI-CD-miniproject/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /usr/bin/python3 py38
+AttributeError: module 'virtualenv.create.via_global_ref.builtin.cpython.mac_os' has no attribute 'CPython2macOsFramework'
