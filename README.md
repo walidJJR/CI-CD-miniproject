@@ -11,3 +11,4 @@
 ![Ping contenair](https://github.com/user-attachments/assets/9cb982aa-5219-4e98-bbb6-e0adaf14bf58)
 
 ![DockerVolume](https://github.com/user-attachments/assets/dbb90dc9-d8b9-41d7-8bb0-d16475ea0079)
+![Clefsecret](https://github.com/user-attachments/assets/d71db5ef-83e7-4660-a383-54e5faa3afb3)
